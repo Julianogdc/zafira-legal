@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="zafiraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#412394" />
+      <stop offset="100%" stop-color="#0139e8" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#2c1e4c" />
+  <path d="M16 18 H48 L26 44 H48" stroke="url(#zafiraGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="48" cy="20" r="3.5" fill="#ece5d5" />
+  <circle cx="16" cy="42" r="3.5" fill="#ece5d5" />
+</svg>

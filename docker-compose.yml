@@ -1,0 +1,18 @@
+services:
+  zafira-legal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: zafira-legal:latest
+    container_name: zafira-postiz-legal
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://127.0.0.1/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s

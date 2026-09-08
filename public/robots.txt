@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Meta / Facebook Crawler Support
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+Sitemap: https://legal.zafiramkt.com.br/sitemap.xml
